@@ -7,7 +7,7 @@ namespace EngWordsCards
 	[Activity(Label = "EngWordsCards", MainLauncher = true, Icon = "@mipmap/icon")]
 	public class MainActivity : Activity
 	{
-		int count = 1;
+		
 
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
@@ -18,9 +18,7 @@ namespace EngWordsCards
 
 			// Get our button from the layout resource,
 			// and attach an event to it
-			Button button = FindViewById<Button>(Resource.Id.myButton);
-
-			button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
+			//Button button = FindViewById<Button>(Resource.Id.myButton);
 		}
 	}
 }

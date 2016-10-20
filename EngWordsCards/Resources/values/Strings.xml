@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="hello">Hello World, Click Me!</string>
+	<string name="newBut">Create new card</string>
+	<string name="learnBut">start learn</string>
+	<string name="aboutBut">About</string>
 	<string name="app_name">EngWordsCards</string>
 </resources>
