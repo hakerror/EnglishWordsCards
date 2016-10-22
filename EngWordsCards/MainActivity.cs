@@ -1,6 +1,7 @@
 ﻿using Android.App;
 using Android.Widget;
 using Android.OS;
+using Android.Content;
 
 namespace EngWordsCards
 {
@@ -19,6 +20,14 @@ namespace EngWordsCards
 			// Get our button from the layout resource,
 			// and attach an event to it
 			//Button button = FindViewById<Button>(Resource.Id.myButton);
+			Button newCardButton = FindViewById<Button>(Resource.Id.newCardButton);
+			Button learnButton = FindViewById<Button>(Resource.Id.learnButton);
+			Button aboutButton = FindViewById<Button>(Resource.Id.aboutButton);
+
+			aboutButton.Click += (sender, e) => {
+				var aboutIntent = new Intent(this, typeof(AboutActivity));
+				StartActivity(aboutIntent);
+			};
 		}
 	}
 }

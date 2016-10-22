@@ -3,5 +3,6 @@
 	<string name="newBut">Create new card</string>
 	<string name="learnBut">start learn</string>
 	<string name="aboutBut">About</string>
+	<string name="aboutTex">it is my fist app for android</string>
 	<string name="app_name">EngWordsCards</string>
 </resources>
