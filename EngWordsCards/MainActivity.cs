@@ -28,6 +28,10 @@ namespace EngWordsCards
 				var aboutIntent = new Intent(this, typeof(AboutActivity));
 				StartActivity(aboutIntent);
 			};
+
+			learnButton.Click += (sender, e) => {
+				StartActivity(typeof(LearnActivity));
+			};
 		}
 	}
 }
