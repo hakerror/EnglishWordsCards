@@ -32,6 +32,10 @@ namespace EngWordsCards
 			learnButton.Click += (sender, e) => {
 				StartActivity(typeof(LearnActivity));
 			};
+
+			newCardButton.Click += (sender, e) => {
+				StartActivity(typeof(NewCardActivity));
+			};
 		}
 	}
 }
